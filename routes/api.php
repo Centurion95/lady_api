@@ -31,9 +31,40 @@ Route::get('crear_rol', 'TablasController@crear_rol');
 Route::get('editar_rol', 'TablasController@editar_rol'); 
 Route::get('eliminar_rol', 'TablasController@eliminar_rol'); 
 
+//rc95 13/02/2022 11:03
 Route::get('crear_estado', 'TablasController@crear_estado'); 
 Route::get('editar_estado', 'TablasController@editar_estado'); 
 Route::get('eliminar_estado', 'TablasController@eliminar_estado'); 
+
+Route::get('crear_empresa', 'TablasController@crear_empresa'); 
+Route::get('editar_empresa', 'TablasController@editar_empresa'); 
+Route::get('eliminar_empresa', 'TablasController@eliminar_empresa'); 
+
+Route::get('traer_tipo_documentos', 'TablasController@traer_tipo_documentos'); 
+Route::get('crear_tipo_documento', 'TablasController@crear_tipo_documento'); 
+Route::get('editar_tipo_documento', 'TablasController@editar_tipo_documento'); 
+Route::get('eliminar_tipo_documento', 'TablasController@eliminar_tipo_documento'); 
+
+Route::get('traer_tipo_tickets', 'TablasController@traer_tipo_tickets'); 
+Route::get('crear_tipo_ticket', 'TablasController@crear_tipo_ticket'); 
+Route::get('editar_tipo_ticket', 'TablasController@editar_tipo_ticket'); 
+Route::get('eliminar_tipo_ticket', 'TablasController@eliminar_tipo_ticket'); 
+
+Route::get('traer_proveedores', 'TablasController@traer_proveedores'); 
+Route::get('crear_proveedor', 'TablasController@crear_proveedor'); 
+Route::get('editar_proveedor', 'TablasController@editar_proveedor'); 
+Route::get('eliminar_proveedor', 'TablasController@eliminar_proveedor'); 
+
+//rc95 13/02/2022 13:46
+Route::get('traer_personas', 'TablasController@traer_personas'); 
+Route::get('crear_persona', 'TablasController@crear_persona'); 
+Route::get('editar_persona', 'TablasController@editar_persona'); 
+Route::get('eliminar_persona', 'TablasController@eliminar_persona'); 
+
+// Route::get('traer_usuarios', 'TablasController@traer_usuarios'); 
+// Route::get('crear_usuario', 'TablasController@crear_usuario'); 
+// Route::get('editar_usuario', 'TablasController@editar_usuario'); 
+// Route::get('eliminar_usuario', 'TablasController@eliminar_usuario'); 
 
 // Route::resource('prueba', 'PruebaController'); 
 Route::get('prueba_1', 'PruebaController@prueba_1'); 
